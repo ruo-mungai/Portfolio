@@ -1,3 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    background: blue;
+    background: white;
   }
+
+  .Details {
+      margin: 0px;
+  }
+
+  .container {
+      width: 40%;
+      margin-left: 20px;
+      margin-top: 60px;
+  }
+
+  h1{text-align: center;}
+
+  nav{
+    background-color: rgb(26, 104, 7);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-content: center;
+    min-height: 8vh;
+
+  }
+  .nava{
+      
+      
+      text-align: center;
+      justify-content: space-around;
+      
+  }
+
+.Nav-List{
+    
+    display: flex; 
+    width: 30%;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    
+}
+.Nav-List a{
+   color: white;
+   text-decoration: none;
+   letter-spacing: 3px;
+   font-size: 15px;
+   font-weight: bold;
+}
+.Nav-List li{
+    list-style: none;
+}
+ 
+
+  h1{
+      color:black;
+      
+
+  }
+  
+  .image img{
+      display: flex;
+    align-items: center;
+  }
+  
